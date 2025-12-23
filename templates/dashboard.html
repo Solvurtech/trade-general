@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+
+<div class="mb-4">
+    <h4 class="section-title">Welcome, {{ user }}</h4>
+    <div class="muted-text">Your personal trading workspace</div>
+</div>
+
+<div class="row g-4">
+
+    <div class="col-md-3">
+        <div class="card card-hover border-0">
+            <div class="card-body text-center py-4">
+                <h6 class="fw-bold mb-1">NIFTY</h6>
+                <div class="muted-text">Index trading</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card card-hover border-0">
+            <div class="card-body text-center py-4">
+                <h6 class="fw-bold mb-1">BANKNIFTY</h6>
+                <div class="muted-text">Banking sector</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card card-hover border-0">
+            <div class="card-body text-center py-4">
+                <h6 class="fw-bold mb-1">CRYPTO</h6>
+                <div class="muted-text">Digital assets</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card card-hover border-0">
+            <div class="card-body text-center py-4">
+                <h6 class="fw-bold mb-1">GOLD</h6>
+                <div class="muted-text">Commodities</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}
