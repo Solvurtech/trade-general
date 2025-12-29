@@ -1,0 +1,17 @@
+# Trade General
+
+Personal trading dashboard built with **FastAPI**.
+
+## Features
+- Login page
+- Dashboard with NIFTY, BANKNIFTY, CRYPTO, GOLD modules
+- Static assets (CSS) served correctly
+- Clean local development setup
+
+## Run locally
+
+```bash
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install fastapi uvicorn jinja2 python-multipart
+uvicorn app:app --reload
